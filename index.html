@@ -7,25 +7,62 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>首頁</title>
   <link rel="stylesheet" href="./assets/style/all.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- fontawesome CSS-特殊符號 -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
-<body>
-  <header class="header">
-    這是 header
-  </header>
+<body class="position-absolute h-100">
 
-  
-<h1>
-  這是一段話
-</h1>
+  <div class="container-fulid d-flex h-100">
+    <ul class="header bg-light d-flex flex-column justify-content-between m-0">
+      <li class="nav-bar">
+        <a href="#">
+          <img src="./assets/images/logo-ANSWER.svg" alt="logo" class="logo">
+        </a>
+        <nav class="nav flex-column">
+          <a class="nav-link active text-success" href="#"><i class="fas fa-chart-bar"></i>Dashboard</a>
+          <a class="nav-link text-success" href="#"><i class="fas fa-comment-dots"></i>Question</a>
+          <a class="nav-link text-success" href="#"><i class="fas fa-file-alt"></i>Assignment</a>
+          <a class="nav-link text-success" href="#"><i class="fas fa-school"></i>Course</a>
+          <a class="nav-link text-success" href="#"><i class="fas fa-user-alt"></i>Admin</a>
+          <a class="nav-link text-success" href="#"><i class="fas fa-cogs"></i>Settings</a>
+        </nav>
+      </li>
+      <li>
+        <ul class="user d-flex align-items-center">
+          <li class="img-box">
+            <img src="./assets/images/andychen.jpeg" alt="user-pic">
+          </li>
+          <li class="user-info">
+            <h2>Andy Chen</h2>
+            <h3>andy0401@mail.com</h3>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    
+<h2>HELLO</h2>
+  </div>
 
-<div class="box"></div>
 
-  <footer class="footer">
-    footer
-  </footer>
+
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
