@@ -86,6 +86,11 @@
                                 }
                             }
 
+                            .border-bt{
+                                border-bottom: 1px solid $light-gray;
+                                padding-bottom: 16px;
+                            }
+
                             h2{
                                 font-size: 16px;
                                 line-height: 24px;
@@ -102,46 +107,45 @@
 
                             .zip{
                                 padding: 11px 16px;
-
-                                &::after{
-                                    content: '';
-                                    border-bottom: 1px solid $light-gray;
-                                    padding-bottom: 16px;
-                                }
                                 i{
                                     margin-right: 8px;
                                     width: 24px;
                                     height: 24px;
                                 }
                             }
-
-                            .teacher-icon{
-                                .icon{
-                                    width: 24px;
-                                    height: 24px;
-                                    margin-right: 24px;
-
-                                    &:last-child(){
-                                        margin-right: 0;
-                                    }
-
-                                    &:hover{
-                                        color: $success;
-                                    }
-                                }
-                            }
-
-                            .feedback-list{
-                                margin-top: 21px;
-                                list-style-type: disc;
-                                padding: 0 50px;
-                            }
                         }
                     }
                 }
 
+                .answer{
+                    .dropdown-toggle{
+                        margin-right: 24px;
+                    }
+                    a{
+                        color: $dark-gray;
+                        padding: 0 12px;
 
+                        .fas{
+                            margin-right: 0;
 
+                            &:hover{
+                                color: $success;
+                            }
+                        }
+                    }
+
+                    textarea{
+                        width: 100%;
+                        border: 0;
+                        outline: none;
+                        resize : none;
+                    }
+
+                    .feedback-btn{
+                        padding: 8px 32px;
+                        margin-right: 7px;
+                    }
+                }
             }
         }
     }
