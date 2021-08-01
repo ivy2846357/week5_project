@@ -1,9 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-body {
-  font-family: 'Open Sans', sans-serif; }
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+html {
+  font-family: 'Lato', sans-serif !important; }
 
 a {
   text-decoration: none; }
+
+.container {
+  padding: 32px; }
+  .container .nav-bar h2 {
+    font-size: 24px;
+    line-height: 33px;
+    margin-right: 48px; }
+  .container .nav-bar .dropdown a {
+    font-size: 16px;
+    line-height: 24px; }
+
+.list-group-item.active {
+  color: #212529;
+  border-color: #CED4DA;
+  background-color: #F8F9FA; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -68,7 +83,9 @@ img {
     border: 1px solid transparent;
     border-radius: 50%;
     overflow: hidden;
-    margin-right: 16px; }
+    margin-right: 16px;
+    margin-left: 32px;
+    margin-bottom: 32px; }
   .header .user .user-info h2 {
     font-size: 16px;
     line-height: 24px;
@@ -82,5 +99,95 @@ img {
   width: 24px;
   height: 24px;
   margin-right: 16px; }
+
+.index .list {
+  padding: 12px 33px 32px 33px; }
+  .index .list .annotate h3 {
+    font-size: 16px;
+    line-height: 24px; }
+  .index .list .annotate p {
+    font-size: 12px;
+    line-height: 24px;
+    color: #6C757D; }
+  .index .list .user-comment .user-question {
+    width: 25%;
+    margin-right: 16px; }
+    .index .list .user-comment .user-question a {
+      padding: 12px; }
+      .index .list .user-comment .user-question a .question-main h3 {
+        display: inline-block;
+        font-size: 12px;
+        line-height: 24px; }
+      .index .list .user-comment .user-question a .question-main h2 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold; }
+      .index .list .user-comment .user-question a .question-main p {
+        font-size: 12px;
+        line-height: 24px;
+        color: #6C757D; }
+  .index .list .user-comment .comment {
+    width: 75%; }
+    .index .list .user-comment .comment .comment-info .fas {
+      margin-right: 0; }
+      .index .list .user-comment .comment .comment-info .fas:hover {
+        color: #198754; }
+    .index .list .user-comment .comment .comment-info .question-title h3 {
+      font-size: 12px;
+      line-height: 24px; }
+    .index .list .user-comment .comment .comment-info .question-title h2 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold; }
+    .index .list .user-comment .comment .comment-info a {
+      color: #212529; }
+    .index .list .user-comment .comment .comment-info .question-content {
+      padding: 8px; }
+      .index .list .user-comment .comment .comment-info .question-content img {
+        width: 40px;
+        height: 40px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        overflow: hidden; }
+      .index .list .user-comment .comment .comment-info .question-content .media-body li {
+        margin-bottom: 16px; }
+        .index .list .user-comment .comment .comment-info .question-content .media-body li:last-child {
+          margin-bottom: 0; }
+      .index .list .user-comment .comment .comment-info .question-content .media-body .border-bt {
+        border-bottom: 1px solid #6C757D;
+        padding-bottom: 16px; }
+      .index .list .user-comment .comment .comment-info .question-content .media-body h2 {
+        font-size: 16px;
+        line-height: 24px; }
+      .index .list .user-comment .comment .comment-info .question-content .media-body h3 {
+        font-size: 12px;
+        line-height: 24px;
+        color: #6C757D; }
+      .index .list .user-comment .comment .comment-info .question-content .media-body p {
+        font-size: 14px;
+        line-height: 21px; }
+      .index .list .user-comment .comment .comment-info .question-content .media-body .zip {
+        padding: 11px 16px; }
+        .index .list .user-comment .comment .comment-info .question-content .media-body .zip i {
+          margin-right: 8px;
+          width: 24px;
+          height: 24px; }
+    .index .list .user-comment .comment .answer .dropdown-toggle {
+      margin-right: 24px; }
+    .index .list .user-comment .comment .answer a {
+      color: #212529;
+      padding: 0 12px; }
+      .index .list .user-comment .comment .answer a .fas {
+        margin-right: 0; }
+        .index .list .user-comment .comment .answer a .fas:hover {
+          color: #198754; }
+    .index .list .user-comment .comment .answer textarea {
+      width: 100%;
+      border: 0;
+      outline: none;
+      resize: none; }
+    .index .list .user-comment .comment .answer .feedback-btn {
+      padding: 8px 32px;
+      margin-right: 7px; }
 
 /*# sourceMappingURL=all.css.map */

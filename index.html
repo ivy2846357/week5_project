@@ -6,16 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>首頁</title>
-  <link rel="stylesheet" href="./assets/style/all.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <!-- fontawesome CSS-特殊符號 -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- 自訂CSS樣式 -->
+  <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
-<body class="position-absolute h-100">
+<body class="position-absolute w-100">
 
   <div class="container-fulid d-flex h-100">
     <ul class="header bg-light d-flex flex-column justify-content-between m-0">
@@ -24,18 +25,20 @@
           <img src="./assets/images/logo-ANSWER.svg" alt="logo" class="logo">
         </a>
         <nav class="nav flex-column">
-          <a class="nav-link active text-success" href="#"><i class="fas fa-chart-bar"></i>Dashboard</a>
-          <a class="nav-link text-success" href="#"><i class="fas fa-comment-dots"></i>Question</a>
+          <a class="nav-link active text-dark" href="#"><i class="fas fa-chart-bar"></i>Dashboard</a>
+          <a class="nav-link text-dark" href="#"><i class="fas fa-comment-dots"></i>Question</a>
           <a class="nav-link text-success" href="#"><i class="fas fa-file-alt"></i>Assignment</a>
-          <a class="nav-link text-success" href="#"><i class="fas fa-school"></i>Course</a>
-          <a class="nav-link text-success" href="#"><i class="fas fa-user-alt"></i>Admin</a>
-          <a class="nav-link text-success" href="#"><i class="fas fa-cogs"></i>Settings</a>
+          <a class="nav-link text-dark" href="#"><i class="fas fa-school"></i>Course</a>
+          <a class="nav-link text-dark" href="#"><i class="fas fa-user-alt"></i>Admin</a>
+          <a class="nav-link text-dark" href="#"><i class="fas fa-cogs"></i>Settings</a>
         </nav>
       </li>
       <li>
         <ul class="user d-flex align-items-center">
           <li class="img-box">
-            <img src="./assets/images/andychen.jpeg" alt="user-pic">
+            <a href="#">
+              <img src="./assets/images/andychen.jpeg" alt="user-pic">
+            </a>
           </li>
           <li class="user-info">
             <h2>Andy Chen</h2>
@@ -45,7 +48,199 @@
       </li>
     </ul>
     
-<h2>HELLO</h2>
+<div class="index w-100">
+    <div class="container m-0">
+        <ul class="nav-bar d-flex align-items-baseline">
+            <li>
+                <h2>Assignment</h2>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a class="btn btn-transparent p-0" href="#" role="button" id="dropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        All Courses
+                        <i class="fas fa-chevron-down text-success"></i>
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">class-A</a>
+                        <a class="dropdown-item" href="#">class-B</a>
+                        <a class="dropdown-item" href="#">class-C</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="list">
+        <div class="annotate d-flex justify-content-between">
+            <ul class="d-flex align-items-baseline">
+                <li>
+                    <h3>All (4)</h3>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-transparent" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-chevron-down text-success"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <p>2 comments</p>
+        </div>
+        <ul class="user-comment d-flex">
+            <li class="user-question">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active rounded-0">
+                        <ul class="question-main">
+                            <li class="d-flex justify-content-between">
+                                <h3>Chapter Assignment 2</h3>
+                                <h3>4 hrs ago</h3>
+                            </li>
+                            <li class="d-flex justify-content-between">
+                                <h2>Please check this file…</h2>
+                                <p>Emily Wang</p>
+                            </li>
+                        </ul>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action  rounded-0">
+                        <ul class="question-main">
+                            <li class="d-flex justify-content-between">
+                                <h3>Chapter Assignment 1</h3>
+                                <h3>12 hrs ago</h3>
+                            </li>
+                            <li class="d-flex justify-content-between">
+                                <h2>My Homework</h2>
+                                <p>David Xu</p>
+                            </li>
+                        </ul>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action  rounded-0">
+                        <ul class="question-main">
+                            <li class="d-flex justify-content-between">
+                                <h3>Final Assignment</h3>
+                                <h3>18 hrs ago</h3>
+                            </li>
+                            <li class="d-flex justify-content-between">
+                                <h2>Have a problem with this…</h2>
+                                <p>Tony Wei</p>
+                            </li>
+                        </ul>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action  rounded-0">
+                        <ul class="question-main">
+                            <li class="d-flex justify-content-between">
+                                <h3>Final Assignment</h3>
+                                <h3>19 hrs ago</h3>
+                            </li>
+                            <li class="d-flex justify-content-between">
+                                <h2>Did I do it right?</h2>
+                                <p>Christina Lin</p>
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+            </li>
+            <li class="comment">
+                <div class="comment-info">
+                    <div class="card rounded-0">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <div class="question-title">
+                                <h3>Chapter Assignment 2 / HTML&CSS</h3>
+                                <h2>Please check this file for me, thanks!</h2>
+                            </div>
+                            <a href="#">
+                                <i class="fas fa-ellipsis-v text-center ailgn-self-center"></i>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <div class="media question-content">
+                                <img src="./assets/images/emilywang.jpeg" class="mr-3" alt="emily">
+                                <ul class="media-body">
+                                    <li>
+                                        <h2>Emily Wang</h2>
+                                        <h3>10:38 AM (4 hours ago)</h3>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Hi Teacher, the attached file is my homework of chapter 2. And here comes a
+                                            question: Why in the following code the height of the div is bigger than the
+                                            height of the img ? There is a gap below the image, but it doesn’t seems to
+                                            be a
+                                            padding/margin. What is the gap or extra space below image?
+                                        </p>
+                                    </li>
+                                    <li class="border-bt">
+                                        <a href="#" class="btn btn-light zip">
+                                            <i class="fas fa-paperclip"></i>
+                                            HW-2-David.zip
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="answer">
+                    <div class="card rounded-0">
+                        <ul class="card-header d-flex align-items-baseline">
+                            <li>
+                                <div class="dropdown">
+                                    <button class="btn btn-light dropdown-toggle p-0" type="button"
+                                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Body Text
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-bold"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-italic"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-list-ul"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-list-ol"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-image"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-file-archive"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-code"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="card-body">
+                            <li>
+                                <textarea name="feedback" id="feedback" cols="30" rows="10"
+                                    placeholder="Reply an answer…"></textarea>
+                            </li>
+                            <li class="d-flex justify-content-end">
+                                <div class="btn btn-outline-success rounded-0 feedback-btn">Cancel</div>
+                                <div class="btn btn-success rounded-0 feedback-btn">Reply</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
   </div>
 
 
