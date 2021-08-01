@@ -1,9 +1,32 @@
 //字型
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-body{
-    font-family: 'Open Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+html{
+    font-family: 'Lato', sans-serif !important;
 }
 
 a{
     text-decoration: none;
+}
+
+.container{
+    padding: 32px;
+    .nav-bar{
+        h2{
+            font-size: 24px;
+            line-height: 33px;
+            margin-right: 48px;
+        }
+        .dropdown{
+            a{
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+.list-group-item.active{   
+    color: $dark-gray;
+    border-color: #CED4DA;
+    background-color: #F8F9FA;
 }

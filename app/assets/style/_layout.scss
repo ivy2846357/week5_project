@@ -12,7 +12,7 @@
                 border-left: 4px solid transparent;
 
                 &:hover{
-                    border-left: 4px solid #198754;
+                    border-left: 4px solid $success;
                 }
             }
         }
@@ -26,6 +26,8 @@
             border-radius: 50%;
             overflow: hidden;
             margin-right: 16px;
+            margin-left: 32px;
+            margin-bottom: 32px;
         }
 
         .user-info{

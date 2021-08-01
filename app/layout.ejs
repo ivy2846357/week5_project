@@ -6,16 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
-  <link rel="stylesheet" href="./assets/style/all.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <!-- fontawesome CSS-特殊符號 -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- 自訂CSS樣式 -->
+  <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
-<body class="position-absolute h-100">
+<body class="position-absolute w-100">
 
   <div class="container-fulid d-flex h-100">
     <ul class="header bg-light d-flex flex-column justify-content-between m-0">
@@ -24,18 +25,20 @@
           <img src="./assets/images/logo-ANSWER.svg" alt="logo" class="logo">
         </a>
         <nav class="nav flex-column">
-          <a class="nav-link active text-success" href="#"><i class="fas fa-chart-bar"></i>Dashboard</a>
-          <a class="nav-link text-success" href="#"><i class="fas fa-comment-dots"></i>Question</a>
+          <a class="nav-link active text-dark" href="#"><i class="fas fa-chart-bar"></i>Dashboard</a>
+          <a class="nav-link text-dark" href="#"><i class="fas fa-comment-dots"></i>Question</a>
           <a class="nav-link text-success" href="#"><i class="fas fa-file-alt"></i>Assignment</a>
-          <a class="nav-link text-success" href="#"><i class="fas fa-school"></i>Course</a>
-          <a class="nav-link text-success" href="#"><i class="fas fa-user-alt"></i>Admin</a>
-          <a class="nav-link text-success" href="#"><i class="fas fa-cogs"></i>Settings</a>
+          <a class="nav-link text-dark" href="#"><i class="fas fa-school"></i>Course</a>
+          <a class="nav-link text-dark" href="#"><i class="fas fa-user-alt"></i>Admin</a>
+          <a class="nav-link text-dark" href="#"><i class="fas fa-cogs"></i>Settings</a>
         </nav>
       </li>
       <li>
         <ul class="user d-flex align-items-center">
           <li class="img-box">
-            <img src="./assets/images/andychen.jpeg" alt="user-pic">
+            <a href="#">
+              <img src="./assets/images/andychen.jpeg" alt="user-pic">
+            </a>
           </li>
           <li class="user-info">
             <h2>Andy Chen</h2>
