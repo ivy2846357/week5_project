@@ -153,6 +153,92 @@ img {
         margin-bottom: 16px; }
         .index .list .user-comment .comment .comment-info .question-content .media-body li:last-child {
           margin-bottom: 0; }
+      .index .list .user-comment .comment .comment-info .question-content .media-body h2 {
+        font-size: 16px;
+        line-height: 24px; }
+      .index .list .user-comment .comment .comment-info .question-content .media-body h3 {
+        font-size: 12px;
+        line-height: 24px;
+        color: #6C757D; }
+      .index .list .user-comment .comment .comment-info .question-content .media-body p {
+        font-size: 14px;
+        line-height: 21px; }
+      .index .list .user-comment .comment .comment-info .question-content .media-body .zip {
+        padding: 11px 16px; }
+        .index .list .user-comment .comment .comment-info .question-content .media-body .zip::after {
+          content: '';
+          border-bottom: 1px solid #6C757D;
+          padding-bottom: 16px; }
+        .index .list .user-comment .comment .comment-info .question-content .media-body .zip i {
+          margin-right: 8px;
+          width: 24px;
+          height: 24px; }
+      .index .list .user-comment .comment .comment-info .question-content .media-body .teacher-icon .icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 24px; }
+        .index .list .user-comment .comment .comment-info .question-content .media-body .teacher-icon .icon:last-child() {
+          margin-right: 0; }
+        .index .list .user-comment .comment .comment-info .question-content .media-body .teacher-icon .icon:hover {
+          color: #198754; }
+      .index .list .user-comment .comment .comment-info .question-content .media-body .feedback-list {
+        margin-top: 21px;
+        list-style-type: disc;
+        padding: 0 50px; }
+
+.index .list {
+  padding: 12px 33px 32px 33px; }
+  .index .list .annotate h3 {
+    font-size: 16px;
+    line-height: 24px; }
+  .index .list .annotate p {
+    font-size: 12px;
+    line-height: 24px;
+    color: #6C757D; }
+  .index .list .user-comment .user-question {
+    width: 25%;
+    margin-right: 16px; }
+    .index .list .user-comment .user-question a {
+      padding: 12px; }
+      .index .list .user-comment .user-question a .question-main h3 {
+        display: inline-block;
+        font-size: 12px;
+        line-height: 24px; }
+      .index .list .user-comment .user-question a .question-main h2 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold; }
+      .index .list .user-comment .user-question a .question-main p {
+        font-size: 12px;
+        line-height: 24px;
+        color: #6C757D; }
+  .index .list .user-comment .comment {
+    width: 75%; }
+    .index .list .user-comment .comment .comment-info .fas {
+      margin-right: 0; }
+      .index .list .user-comment .comment .comment-info .fas:hover {
+        color: #198754; }
+    .index .list .user-comment .comment .comment-info .question-title h3 {
+      font-size: 12px;
+      line-height: 24px; }
+    .index .list .user-comment .comment .comment-info .question-title h2 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold; }
+    .index .list .user-comment .comment .comment-info a {
+      color: #212529; }
+    .index .list .user-comment .comment .comment-info .question-content {
+      padding: 8px; }
+      .index .list .user-comment .comment .comment-info .question-content img {
+        width: 40px;
+        height: 40px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        overflow: hidden; }
+      .index .list .user-comment .comment .comment-info .question-content .media-body li {
+        margin-bottom: 16px; }
+        .index .list .user-comment .comment .comment-info .question-content .media-body li:last-child {
+          margin-bottom: 0; }
       .index .list .user-comment .comment .comment-info .question-content .media-body .border-bt {
         border-bottom: 1px solid #6C757D;
         padding-bottom: 16px; }
