@@ -186,94 +186,215 @@ img {
         list-style-type: disc;
         padding: 0 50px; }
 
-.index .list {
+.answer .list {
   padding: 12px 33px 32px 33px; }
-  .index .list .annotate h3 {
+  .answer .list .annotate h3 {
     font-size: 16px;
     line-height: 24px; }
-  .index .list .annotate p {
+  .answer .list .annotate p {
     font-size: 12px;
     line-height: 24px;
     color: #6C757D; }
-  .index .list .user-comment .user-question {
+  .answer .list .user-comment .user-question {
     width: 25%;
     margin-right: 16px; }
-    .index .list .user-comment .user-question a {
+    .answer .list .user-comment .user-question a {
       padding: 12px; }
-      .index .list .user-comment .user-question a .question-main h3 {
+      .answer .list .user-comment .user-question a .question-main h3 {
         display: inline-block;
         font-size: 12px;
         line-height: 24px; }
-      .index .list .user-comment .user-question a .question-main h2 {
+      .answer .list .user-comment .user-question a .question-main h2 {
         font-size: 16px;
         line-height: 24px;
         font-weight: bold; }
-      .index .list .user-comment .user-question a .question-main p {
+      .answer .list .user-comment .user-question a .question-main p {
         font-size: 12px;
         line-height: 24px;
         color: #6C757D; }
-  .index .list .user-comment .comment {
+  .answer .list .user-comment .comment {
     width: 75%; }
-    .index .list .user-comment .comment .comment-info .fas {
+    .answer .list .user-comment .comment .comment-info .fas {
       margin-right: 0; }
-      .index .list .user-comment .comment .comment-info .fas:hover {
+      .answer .list .user-comment .comment .comment-info .fas:hover {
         color: #198754; }
-    .index .list .user-comment .comment .comment-info .question-title h3 {
+    .answer .list .user-comment .comment .comment-info .question-title h3 {
       font-size: 12px;
       line-height: 24px; }
-    .index .list .user-comment .comment .comment-info .question-title h2 {
+    .answer .list .user-comment .comment .comment-info .question-title h2 {
       font-size: 16px;
       line-height: 24px;
       font-weight: bold; }
-    .index .list .user-comment .comment .comment-info a {
+    .answer .list .user-comment .comment .comment-info a {
       color: #212529; }
-    .index .list .user-comment .comment .comment-info .question-content {
+    .answer .list .user-comment .comment .comment-info .question-content {
       padding: 8px; }
-      .index .list .user-comment .comment .comment-info .question-content img {
+      .answer .list .user-comment .comment .comment-info .question-content img {
         width: 40px;
         height: 40px;
         border: 1px solid transparent;
         border-radius: 50%;
         overflow: hidden; }
-      .index .list .user-comment .comment .comment-info .question-content .media-body li {
+      .answer .list .user-comment .comment .comment-info .question-content .media-body li {
         margin-bottom: 16px; }
-        .index .list .user-comment .comment .comment-info .question-content .media-body li:last-child {
+        .answer .list .user-comment .comment .comment-info .question-content .media-body li:last-child {
           margin-bottom: 0; }
-      .index .list .user-comment .comment .comment-info .question-content .media-body .border-bt {
+      .answer .list .user-comment .comment .comment-info .question-content .media-body .border-bt {
         border-bottom: 1px solid #6C757D;
         padding-bottom: 16px; }
-      .index .list .user-comment .comment .comment-info .question-content .media-body h2 {
+      .answer .list .user-comment .comment .comment-info .question-content .media-body h2 {
         font-size: 16px;
         line-height: 24px; }
-      .index .list .user-comment .comment .comment-info .question-content .media-body h3 {
+      .answer .list .user-comment .comment .comment-info .question-content .media-body h3 {
         font-size: 12px;
         line-height: 24px;
         color: #6C757D; }
-      .index .list .user-comment .comment .comment-info .question-content .media-body p {
+      .answer .list .user-comment .comment .comment-info .question-content .media-body p {
         font-size: 14px;
         line-height: 21px; }
-      .index .list .user-comment .comment .comment-info .question-content .media-body .zip {
+      .answer .list .user-comment .comment .comment-info .question-content .media-body .zip {
         padding: 11px 16px; }
-        .index .list .user-comment .comment .comment-info .question-content .media-body .zip i {
+        .answer .list .user-comment .comment .comment-info .question-content .media-body .zip i {
           margin-right: 8px;
           width: 24px;
           height: 24px; }
-    .index .list .user-comment .comment .answer .dropdown-toggle {
+    .answer .list .user-comment .comment .answer .dropdown-toggle {
       margin-right: 24px; }
-    .index .list .user-comment .comment .answer a {
+    .answer .list .user-comment .comment .answer a {
       color: #212529;
       padding: 0 12px; }
-      .index .list .user-comment .comment .answer a .fas {
+      .answer .list .user-comment .comment .answer a .fas {
         margin-right: 0; }
-        .index .list .user-comment .comment .answer a .fas:hover {
+        .answer .list .user-comment .comment .answer a .fas:hover {
           color: #198754; }
-    .index .list .user-comment .comment .answer textarea {
+    .answer .list .user-comment .comment .answer textarea {
       width: 100%;
       border: 0;
       outline: none;
       resize: none; }
-    .index .list .user-comment .comment .answer .feedback-btn {
+    .answer .list .user-comment .comment .answer .feedback-btn {
       padding: 8px 32px;
       margin-right: 7px; }
+
+.admin .table {
+  margin: 0 auto;
+  width: 95%;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 63px; }
+  .admin .table i {
+    margin-left: 7px;
+    width: 12px;
+    height: 12px; }
+  .admin .table .admin-icon a {
+    margin-right: 25px;
+    color: #212529; }
+    .admin .table .admin-icon a:last-child {
+      margin-right: 0; }
+    .admin .table .admin-icon a:hover {
+      color: #198754; }
+
+.admin .page {
+  padding: 0 32px;
+  margin-bottom: 32px; }
+  .admin .page i {
+    font-size: 12px; }
+  .admin .page .fas {
+    width: 0;
+    height: 0; }
+
+.browse-modal {
+  padding: 32px; }
+  .browse-modal .modal-body .img-box {
+    width: 141px;
+    height: 141px;
+    background-image: url(../images/emir.jpeg);
+    background-size: cover;
+    background-position: center center;
+    margin-right: 24px; }
+  .browse-modal .modal-body h4 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px; }
+  .browse-modal .modal-body h3 {
+    font-size: 16px;
+    line-height: 24px; }
+  .browse-modal .modal-body h2 {
+    font-size: 24px;
+    line-height: 36px; }
+  .browse-modal .modal-body p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C757D;
+    margin-bottom: 16px; }
+  .browse-modal .modal-body .dropbtn {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 4px 8px; }
+  .browse-modal .modal-body .verified-btn {
+    padding: 8px 32px;
+    margin-right: 15px; }
+    .browse-modal .modal-body .verified-btn:last-child {
+      margin-right: 0; }
+
+.edit-model {
+  padding: 32px; }
+  .edit-model .modal-title {
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold; }
+  .edit-model .modal-body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 473px; }
+    .edit-model .modal-body h3 {
+      font-size: 20px;
+      line-height: 33px;
+      margin-bottom: 16px; }
+    .edit-model .modal-body form label {
+      font-size: 14px;
+      line-height: 24px;
+      color: #6C757D; }
+    .edit-model .modal-body .warming {
+      margin-bottom: 19px; }
+      .edit-model .modal-body .warming .fa-exclamation-triangle {
+        margin-right: 9px; }
+    .edit-model .modal-body .send-btn {
+      padding: 16px; }
+    .edit-model .modal-body .drop-btn-word p {
+      margin-left: 16px; }
+    .edit-model .modal-body hr {
+      margin: 24px 0; }
+    .edit-model .modal-body .checkbox-list li {
+      margin-bottom: 21px; }
+      .edit-model .modal-body .checkbox-list li input {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px; }
+      .edit-model .modal-body .checkbox-list li label {
+        font-size: 16px;
+        line-height: 24px; }
+  .edit-model .modal-footer button {
+    padding: 8px 32px;
+    margin-right: 15px; }
+    .edit-model .modal-footer button:last-child {
+      margin-right: 0; }
+
+.modal {
+  text-align: center;
+  padding: 0 !important; }
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px; }
+
+.modal-dialog {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle; }
 
 /*# sourceMappingURL=all.css.map */
