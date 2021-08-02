@@ -15,11 +15,6 @@ a {
     font-size: 16px;
     line-height: 24px; }
 
-.list-group-item.active {
-  color: #212529;
-  border-color: #CED4DA;
-  background-color: #F8F9FA; }
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
