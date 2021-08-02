@@ -1,0 +1,176 @@
+---
+title: 學生資訊
+layout: ./app/layout.ejs
+engine: ejs
+current: feedback
+---
+
+<div class="admin w-100">
+    <div class="container m-0">
+        <ul class="nav-bar d-flex align-items-baseline">
+            <li>
+                <h2>Admin</h2>
+            </li>
+            <li>
+                <div class="addbtn">
+                    <a class="btn btn-transparent p-0" href="#" role="button">
+                        <i class="fas fa-plus text-success"></i>Add New Admin
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">ID<i class="fas fa-arrow-down text-success"></i>
+                </th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Verified</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" width="10%">#1</th>
+                <td width="20%">Emir Wicks</td>
+                <td width="25%">emir.wicks@mail.com</td>
+                <td class="d-flex justify-content-between">
+                    <p>Yes</p>
+                    <div class="admin-icon">
+                        <a href="#"><i class="fas fa-eye" data-toggle="modal" data-target="#browseModal"></i></a>
+                        <a href="#"><i class="fas fa-pen" data-toggle="modal" data-target="#editModal"></i></a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <nav aria-label="Page navigation example" class="page d-flex justify-content-end">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link text-success" href="#"><i class="fas fa-chevron-left"></i></a>
+            </li>
+            <li class="page-item"><a class="page-link text-success" href="#">1</a></li>
+            <li class="page-item"><a class="page-link text-success" href="#">2</a></li>
+            <li class="page-item"><a class="page-link text-success" href="#">3</a></li>
+            <li class="page-item"><a class="page-link text-success" href="#"><i class="fas fa-chevron-right"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- browseModal -->
+    <div class="modal fade browse-modal" id="browseModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <ul class="modal-body d-flex">
+                    <li class="img-box">
+                    </li>
+                    <li class="w-75">
+                        <h4>#1</h4>
+                        <h3>Admin</h3>
+                        <h2>Emir Wicks</h2>
+                        <p>emir.wicks@mail.com</p>
+                        <p class="d-flex align-items-baseline justify-content-between">
+                            <a class="btn btn-light btn-sm dropbtn" data-toggle="collapse" href="#collapseExample"
+                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                                verified
+                            </a>
+                            <a href="#"><i class="fas fa-chevron-down text-success"></i></a>
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                            <ul class="d-flex justify-content-end">
+                                <li class="btn btn-outline-danger verified-btn rounded-0">deactivate
+                                </li>
+                                <li class="btn btn-success verified-btn rounded-0">edit</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- editModal -->
+    <div class="modal fade edit-modal" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content edit-model">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Admin</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3>Account</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Password"
+                                required>
+                        </div>
+                    </form>
+                    <hr>
+                    <h3>Verification</h3>
+                    <div class="warming d-flex">
+                        <i class="fas fa-exclamation-triangle text-danger"></i>
+                        <h4>unverified</h4>
+                    </div>
+                    <button type="button" class="btn btn-light w-100 text-success send-btn">Send Verification
+                        Mail</button>
+                    <hr>
+                    <h3>Access Level</h3>
+                    <div class="dropdown border">
+                        <button class="btn btn-light w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <div class="drop-btn-word d-flex justify-content-between align-items-baseline">
+                                <p>-Choose access level-</p>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </button>
+                        <div class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>Custom Access</h3>
+                    <form class="checkbox-list">
+                        <ul class="f-flex flex-column">
+                            <li class="d-flex align-items-center">
+                                <input type="checkbox" name="custom-access" id="custom-access" value="lecture">
+                                <label for="lecture">lecture</label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="checkbox" name="custom-access" id="custom-access" value="coupon">
+                                <label for="coupon">Coupon</label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="checkbox" name="custom-access" id="custom-access" value="Message">
+                                <label for="message">Message</label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="checkbox" name="custom-access" id="custom-access" value="setting">
+                                <label for="setting">Setting</label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="checkbox" name="custom-access" id="custom-access" value="task-menu">
+                                <label for="task-menu">Task menu</label>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="modal-footer d-flex justify-content-end border-0">
+                    <button type="button" class="btn btn-outline-success rounded-0" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-success rounded-0">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

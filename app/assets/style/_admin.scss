@@ -1,0 +1,199 @@
+.admin{
+    .table{
+        margin: 0 auto;
+        width: 95%;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 63px;
+    
+        i{
+            margin-left: 7px;
+            width: 12px;
+            height: 12px    ;
+        }
+
+        .admin-icon{
+            a{
+                margin-right: 25px;
+                color: $dark-gray;
+
+                &:last-child{
+                    margin-right: 0;
+                }
+
+                &:hover{
+                    color: $success;
+                }
+            }
+            
+        }
+    }
+
+    .page{
+        padding: 0 32px;
+        margin-bottom: 32px;
+
+        i{
+            font-size: 12px;
+        }
+
+        .fas{
+            width: 0;
+            height: 0;
+        }
+    }
+}
+
+.browse-modal{
+    padding: 32px;
+
+    .modal-body{
+        .img-box{
+            width: 141px;
+            height: 141px;
+            background-image: url(../images/emir.jpeg);
+            background-size: cover;
+            background-position: center center;
+            margin-right: 24px;
+        }
+
+        h4{
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 8px;
+        }
+
+        h3{
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        h2{
+            font-size: 24px;
+            line-height: 36px;
+        }
+
+        p{
+            font-size: 14px;
+            line-height: 24px;
+            color: $light-gray;
+            margin-bottom: 16px;
+        }
+
+        .dropbtn{
+            font-size: 14px;
+            line-height: 24px;
+            padding: 4px 8px;
+        }
+
+        .verified-btn{
+            padding: 8px 32px;
+            margin-right: 15px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.edit-model{
+    padding: 32px;
+
+    .modal-title{
+        font-size: 24px;
+        line-height: 33px;
+        font-weight: bold;
+    }
+
+    .modal-body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 473px;
+
+        h3{
+            font-size: 20px;
+            line-height: 33px;
+            margin-bottom: 16px;
+        }
+
+        form{
+            label{
+                font-size: 14px;
+                line-height: 24px;
+                color: $light-gray;
+            }
+        }
+
+        .warming{
+            margin-bottom: 19px;
+
+            .fa-exclamation-triangle{
+                margin-right: 9px;
+            }
+        }
+
+        .send-btn{
+            padding: 16px;
+        }
+
+        .drop-btn-word{
+            p{
+                margin-left: 16px;
+            }
+        }
+
+        hr{
+            margin: 24px 0;
+        }
+
+        .checkbox-list{
+
+            li{
+                margin-bottom: 21px;
+
+                input{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 8px;
+                }
+    
+                label{
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+    .modal-footer{
+        button{
+            padding: 8px 32px;
+            margin-right: 15px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+  }
+  
+  .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+  }
+  
+  .modal-dialog {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
