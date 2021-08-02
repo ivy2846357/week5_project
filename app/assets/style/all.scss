@@ -1,8 +1,12 @@
+//共用樣式
 @import "_util.scss";
 @import "_base.scss";
+//CSS reset
 @import "_reset.scss";
 
+//layout樣式
 @import "_layout.scss";
+//單頁CSS樣式
 @import "_index.scss";
 @import "_answer.scss";
 @import "_admin.scss";

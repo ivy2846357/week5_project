@@ -1,6 +1,8 @@
 .index{
+    //內容
     .list{
         padding: 12px 33px 32px 33px;
+        //上方註解
         .annotate{
             h3{
                 font-size: 16px;
@@ -13,7 +15,9 @@
             }
         }
 
+        //學生問答區
         .user-comment{
+            //問答簡介
             .user-question{
                 width: 25%;
                 margin-right: 16px;
@@ -39,6 +43,7 @@
                 }
             }
 
+            //問答詳情
             .comment{
                 width: 75%;
 
@@ -51,6 +56,7 @@
                         }
                     }
 
+                    //問題標題
                     .question-title{
                         h3{
                             font-size: 12px;
@@ -66,6 +72,7 @@
                         color: $dark-gray;
                     }
 
+                    //問題內容
                     .question-content{
                         padding: 8px;
 
@@ -115,6 +122,7 @@
                                 }
                             }
 
+                            //老師編輯按鈕
                             .teacher-icon{
                                 .icon{
                                     width: 24px;
@@ -131,6 +139,7 @@
                                 }
                             }
 
+                            //回饋list
                             .feedback-list{
                                 margin-top: 21px;
                                 list-style-type: disc;

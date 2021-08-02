@@ -17,9 +17,10 @@
 </head>
 
 <body class="position-absolute w-100">
-
   <div class="container-fulid d-flex h-100">
+    <!-- 左側導覽列 -->
     <ul class="header bg-light d-flex flex-column justify-content-between m-0">
+      <!-- 選單 -->
       <li class="nav-bar">
         <a href="#">
           <img src="./assets/images/logo-ANSWER.svg" alt="logo" class="logo">
@@ -33,6 +34,7 @@
           <a class="nav-link text-dark" href="#"><i class="fas fa-cogs"></i>Settings</a>
         </nav>
       </li>
+      <!-- 使用者資料 -->
       <li>
         <ul class="user d-flex align-items-center">
           <li class="img-box">
@@ -47,6 +49,8 @@
         </ul>
       </li>
     </ul>
+
+    <!-- 右側內容 -->
     <%- contents %>
   </div>
 

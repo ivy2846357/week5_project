@@ -1,4 +1,5 @@
 .admin{
+    //表格
     .table{
         margin: 0 auto;
         width: 95%;
@@ -12,6 +13,7 @@
             height: 12px    ;
         }
 
+        //編輯 / 瀏覽icon
         .admin-icon{
             a{
                 margin-right: 25px;
@@ -29,6 +31,7 @@
         }
     }
 
+    //分頁
     .page{
         padding: 0 32px;
         margin-bottom: 32px;
@@ -44,6 +47,7 @@
     }
 }
 
+//瀏覽學生資料-彈跳視窗
 .browse-modal{
     padding: 32px;
 
@@ -97,6 +101,7 @@
     }
 }
 
+//編輯學生資料-彈跳視窗
 .edit-model{
     padding: 32px;
 
@@ -107,6 +112,7 @@
     }
 
     .modal-body{
+        //表單滾輪設定
         overflow-x: hidden;
         overflow-y: scroll;
         height: 473px;
@@ -125,6 +131,7 @@
             }
         }
 
+        //警告提示
         .warming{
             margin-bottom: 19px;
 
@@ -133,10 +140,12 @@
             }
         }
 
+        //傳送郵件按鈕
         .send-btn{
             padding: 16px;
         }
 
+        //等級選單
         .drop-btn-word{
             p{
                 margin-left: 16px;
@@ -147,6 +156,7 @@
             margin: 24px 0;
         }
 
+        // 多選
         .checkbox-list{
 
             li{
@@ -166,6 +176,7 @@
         }
     }
 
+    //更新 / 取消按鈕
     .modal-footer{
         button{
             padding: 8px 32px;
@@ -178,6 +189,7 @@
     }
 }
 
+//彈跳視窗置中
 .modal {
     text-align: center;
     padding: 0!important;

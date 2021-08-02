@@ -4,10 +4,12 @@ html{
     font-family: 'Lato', sans-serif !important;
 }
 
+//取消 a 下底線
 a{
     text-decoration: none;
 }
 
+//外容器設定
 .container{
     padding: 32px;
     .nav-bar{
@@ -25,8 +27,8 @@ a{
     }
 }
 
-.list-group-item.active{   
-    color: $dark-gray;
-    border-color: #CED4DA;
-    background-color: #F8F9FA;
-}
+// .list-group-item.active{   
+//     color: $dark-gray;
+//     border-color: #CED4DA;
+//     background-color: #F8F9FA;
+// }
